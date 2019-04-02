@@ -1,13 +1,13 @@
-﻿spring: 
-  profiles: 
+﻿spring:  
+  profiles:  
     active: dev
 ---
-server: 
+server:  
   port: 7001
 
 spring: 
   profiles: dev
-  application: 
+  application:  
     name: microservice-config-eureka-server
 
 eureka: 
