@@ -27,7 +27,7 @@ mybatis:
 eureka: 
   client: 
     service-url: 
-      defaultZone: http://eurekalocalhost:7001/eureka/
+      defaultZone: http://eureka.com:7001/eureka/
   instance:
     instance-id: dept-provider-8001
     prefer-ip-address: true #访问路径可以显示IP地址
@@ -64,7 +64,7 @@ mybatis:
 eureka: 
   client: 
     service-url: 
-      defaultZone: http://eurekalocalhost:7001/eureka/
+      defaultZone: http://eureka.com:7001/eureka/
   instance:
     instance-id: dept-provider-8001
     prefer-ip-address: true #访问路径可以显示IP地址
